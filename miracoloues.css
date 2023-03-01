@@ -1,0 +1,2338 @@
+body {
+background-color: rgb(255, 255, 255);
+}
+
+.font-families{
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+}
+
+.image-thomes {
+    border: solid;
+    border-radius: 10px;
+    width: 15%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.all-text-auther {
+    padding-left: 10px;
+    direction: rtl;
+}
+
+/* .p-thomes-1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.p-thomes-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.p-thomes-3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.p-thomes-4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+.p-thomes-6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.p-thomes-7 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+} */
+
+/* thomas astruc */
+/* cat noir */
+
+.catnoir-name {
+    color: #08da23;
+}
+
+.background-catnoir {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://i.ytimg.com/vi/oODLLgAuc0o/maxresdefault.jpg);
+    background-position: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+}
+
+
+.image-catnoir {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #ffd700 0%, white 55%, green 80%, #ffd700 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-catnoir::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1070061633994506321/1070605411939516508/Adrien_Agreste__Kara_Kedi_.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-catnoir {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-catnoir {
+    margin-left: 60%;
+}
+
+.p-catnoir-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -22%;
+    margin-left: 15%;
+    line-height: 2.1;
+    color: white;
+}
+
+
+/* cat noir */
+
+/* ladybag */
+
+.ladybag-name {
+    color: #ff1edc;
+}
+
+.background-ladybug {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080451849133502504/miraculous_wallpaper___ladybug_by_pokemonmalcolregion_dej7to9-350t.jpg);
+    background-position: center;
+    background-size:80%;
+    border-radius: 20px;
+    border: solid red;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.all-margin-ladybug {
+    margin-left: 5%;
+}
+
+.image-ladybug {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #0f17e6 0%, black 55%, #ff2a00 80%, #0f17e6 100%, black 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-ladybug::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://i.quotev.com/3eh6qsdxaaaa.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-ladybug {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.p-ladybag-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: white;
+}
+
+/* ladybag */
+/* hawkmoth */
+
+.hawkmoth-name {
+    color: #edc700;
+}
+
+.background-hawkmoth {
+    width: 96%;
+    height: 310px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080492957871910993/miraculous_wallpaper___butterfly_by_pokemonmalcolregion_delsa2g-350thttps://cdn.discordapp.com/attachments/1074313907256164352/1080492957871910993/miraculous_wallpaper___butterfly_by_pokemonmalcolregion_delsa2g-350t.jpg);
+    background-position:center;
+    background-size:72%;
+    border-radius: 20px;
+    border: solid #6902f9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+
+
+.image-hawkmoth {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #6902f9 0%, white 55%, #ffd700 80%, #6902f9 100%, black 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-hawkmoth::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1070061633994506321/1070605412317016114/gabriel_agreste_and_hawkmoth.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-hawkmoth {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-hawkmoth {
+    margin-left: 60%;
+}
+
+.p-hawkmoth-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -22%;
+    margin-left: 15%;
+    line-height: 2.1;
+    color: black;
+}
+
+/* hawkmoth */
+
+/* mayura */
+/* .mayura-name {
+    color: rgb(0, 191, 255);
+} */
+
+.background-mayura {
+    width: 96%;
+    height:302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080493234045849700/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+    background-position:center ;
+    background-size:73%;
+    border-radius: 20px;
+    border: solid #6902f9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-mayura {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #6c00d1 10%, #ec0f00 55%, #0024be 80%, #6c00d1 100%, #00ece9 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-mayura::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://i.pinimg.com/564x/7f/7e/8e/7f7e8eb1ca9526265c676b03bf77315d.jpg);
+    background-position: center;
+    background-size:120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-mayura {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-mayura {
+    margin-left: 5%;
+}
+
+.p-mayura-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+
+/* mayura *//* mayura *//* mayura */
+
+/* background-nieno *//* background-nieno *//* background-nieno */
+
+.background-nieno {
+    width: 96%;
+    height:302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080443755825467402/delq57l-61338197-6064-428d-b3cc-bb1a84e3d19b.png);
+    background-position:center ;
+    background-size:73%;
+    border-radius: 20px;
+    border: solid #0af902;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-nieno {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #23d100 10%, #000000 55%, #ff0000 80%, #18d100 100%, #060a0a 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-nieno::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-nieno {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-nieno {
+    margin-left: 60%;
+}
+
+.p-nieno-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+/* nieeno end */
+
+
+/* bunix *//* bunix *//* bunix */
+
+
+.background-bunix {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080446359968153710/miraculous_wallpaper___rabbit_by_pokemonmalcolregion_delsa8l-350t_1.jpg);
+    background-position: center;
+    background-size: 70%;
+    border-radius: 20px;
+    border: solid #230bf7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-bunix {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #14aef5 10%, #dbdbdb 55%, #0024be 80%, #14aef5 100%, #f5f5f5 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-bunix::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-bunix{
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-bunix{
+    margin-left: 5%;
+}
+
+.p-bunix-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+/* bunix *//* bunix *//* bunix *//* bunix */
+/* kagami */
+
+.background-kagami {
+    width: 96%;
+    height: 302px;
+    background-image: url();
+    background-position: center;
+    /* background-size:80%; */
+    border-radius: 20px;
+    border: solid  red;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-kagami {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #0024be 0%,white 55%, #f40000 80%, #0024be 100%,gray 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+
+.image-kagami::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1070061633994506321/1073304279009472572/14954d9804effb8719a7ad1bb758edf7.png);
+    /* background-size:107%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-kagami {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-kagami {
+    margin-left: 60%;
+}
+
+.p-kagami-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -22%;
+    margin-left:15%;
+    line-height: 1.8;
+    color: black;
+}
+
+/* kagami */
+
+
+/* background-tom */
+
+
+/* luka *//* luka *//* luka */
+
+.background-luka {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://i.pinimg.com/236x/15/32/f6/1532f63f5d47262cf4787394be689e57.jpg);
+    /* background-position: center; */
+    /* background-size:70%; */
+    border-radius: 20px;
+    border: solid #02eea796 ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-luka {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg ,#02eea796 0%, rgb(100, 0, 167) 55%, #007fe6 80%,#02eea796 100%, rgb(58, 32, 66) 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+.image-luka::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://i.pinimg.com/564x/d4/eb/a2/d4eba21b8d457957062fb31a0642efbc.jpg);
+    background-size:100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-luka {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.p-luka-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top:-22%;
+    margin-left:39%;
+    line-height: 2.1;
+    color:black;
+}
+
+/* luka *//* luka *//* luka */
+
+
+ /* lila rossi  */ /* lila rossi  */ /* lila rossi  */
+
+.background-lila-rossi {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080395475854835722/957426de59ed4464731d31c241e4f149.jpg);
+    background-position:center;
+    background-size:70%;
+    border-radius: 20px;
+    border: solid rgba(255, 145, 0, 0.753);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-lila-rossi {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, rgba(255, 145, 0, 0.753) 0%,rgb(250, 0, 0) 55%, #f40000 80%, rgba(255, 145, 0, 0.753) 100%,white 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+
+.image-lila-rossi::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080392984199172187/ca08d5cf90b0b7eaf4686be084548f61_1.jpg);
+    background-size:100%;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-lila-rossi {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-lila-rossi {
+    margin-left: 60%;
+}
+
+.p-lila-rossi-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top:-22%;
+    margin-left:15%;
+    line-height: 2.1;
+    color:black;
+}
+
+/* lila rossi finish *//* lila rossi finish *//* lila rossi finish */
+
+/* felix argos *//* felix argos *//* felix argos */
+
+.background-felix-argos {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080493234045849700/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+    background-position: center;
+    /* background-size:10%; */
+    border-radius: 20px;
+    border: solid #6902f9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-felix-argos  {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg,90deg,#ffd700 0%,#6902f9 55%,#02ee5196  80%,#ffd700 100%,black 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+.image-felix-argos::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1075454354280157304/80769723e7f2a0ec41aeef9f5de80e77_7.png);
+    /* background-size:100%; */
+    /* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.image-felix-argos{
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-felix-argos {
+    margin-left: 5%;
+}
+
+.p-felix-argos-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top:-22%;
+    margin-left:41%;
+    line-height: 2.1;
+    color:black;
+}
+
+/* finsis felix argos *//* felix argos *//* felix argos */
+
+/* media  min-width:1200px */
+/* media  min-width:1200px */ /* media  min-width:1200px */ /* media  min-width:1200px */
+@media only screen and (min-width:1200px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* thomes */
+    .image-thomes {
+        border: solid;
+        border-radius: 10px;
+        width: 50%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    /* thomes */
+
+    /* catnoir */
+    .background-catnoir {
+        width: 96%;
+        height: 302px;
+        background-image: url(https://i.ytimg.com/vi/oODLLgAuc0o/maxresdefault.jpg);
+        background-position: center;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-catnoir-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -20%;
+        margin-left: 15%;
+        line-height: 2.1;
+        color: white;
+    }
+    
+    
+    /* catnoir */
+
+    /* ladybug */
+    .background-ladybug {
+        width: 96%;
+        height: 302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080451849133502504/miraculous_wallpaper___ladybug_by_pokemonmalcolregion_dej7to9-350t.jpg);
+        background-position: center;
+        background-size:80%;
+        border-radius: 20px;
+        border: solid red;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-ladybag-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -20%;
+        margin-left: 41%;
+        line-height: 2.1;
+        color: white;
+    }
+    
+    /* ladybug */
+
+    /* hawkmoth */
+    .background-hawkmoth {
+        width: 96%;
+        height: 310px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080492957871910993/miraculous_wallpaper___butterfly_by_pokemonmalcolregion_delsa2g-350t.jpg);
+        background-position:center;
+        background-size:72%;
+        border-radius: 20px;
+        border: solid #6902f9;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-hawkmoth-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -20%;
+        margin-left: 15%;
+        line-height: 2.1;
+        color: black;
+    }
+    /* hawkmoth */    /* hawkmoth */    /* hawkmoth */
+
+    /* mayura */ /* mayura */ /* mayura */ /* mayura */
+    .background-mayura {
+        width: 96%;
+        height:302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080448088566677577/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+        background-position:center ;
+        background-size:73%;
+        border-radius: 20px;
+        border: solid #6902f9;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+
+    .image-mayura::after {
+        content: attr(alt);
+        width: 30vw;
+        height: 20vw;
+        background-image: url(https://i.pinimg.com/564x/7f/7e/8e/7f7e8eb1ca9526265c676b03bf77315d.jpg);
+        background-position: center;
+        background-size:120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .p-mayura-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -20%;
+        margin-left: 41%;
+        line-height: 2.1;
+        color: black;
+    }
+    
+    /* mayura *//* mayura *//* mayura */
+
+    /* nieno *//* nieno *//* nieno *//* nieno */
+
+    .background-nieno {
+        width: 96%;
+        height:302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080443755825467402/delq57l-61338197-6064-428d-b3cc-bb1a84e3d19b.png);
+        background-position:center ;
+        background-size:73%;
+        border-radius: 20px;
+        border: solid #0af902;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    
+.image-nieno {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #23d100 10%, #000000 55%, #ff0000 80%, #18d100 100%, #060a0a 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-nieno::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-nieno {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-nieno {
+    margin-left: 60%;
+}
+
+.p-nieno-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+   /* nieno *//* nieno *//* nieno *//* nieno */
+
+    /* bunix*//* bunix*//* bunix*/
+  
+.background-bunix {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080446359968153710/miraculous_wallpaper___rabbit_by_pokemonmalcolregion_delsa8l-350t_1.jpg);
+    background-position: center;
+    background-size: 70%;
+    border-radius: 20px;
+    border: solid #230bf7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-bunix {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #14aef5 10%, #dbdbdb 55%, #0024be 80%, #14aef5 100%, #f5f5f5 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-bunix::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-bunix{
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-bunix{
+    margin-left: 5%;
+}
+
+.p-bunix-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+    /* bunix*//* bunix*//* bunix*/
+
+    /* kagami */
+
+    .background-kagami {
+        width: 96%;
+        height: 302px;
+        background-image: url();
+        background-position: center;
+        /* background-size: 100%; */
+        border-radius: 20px;
+        border: solid red;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    
+    .image-kagami {
+        width: calc(30vw + 6px);
+        height: calc(20vw + 6px);
+        background-image: linear-gradient(90deg, #0024be 0%,white 55%, #f40000 80%, #0024be 100%,gray 49%);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: absolute;
+            top: 10%;
+            left: 34%; */
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .image-kagami::after {
+        content: attr(alt);
+        width: 30vw;
+        height: 20vw;
+        background-image: url(https://cdn.discordapp.com/attachments/1070061633994506321/1073304279009472572/14954d9804effb8719a7ad1bb758edf7.png);
+        /* background-size:107%; */
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-kagami {
+        animation: slowed 2s linear infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation: slowed 2s linear infinite;
+    }
+    
+    @keyframes slowed {
+        to {
+            background-position: 30vw;
+        }
+    }
+    
+    .all-margin-kagami {
+        margin-left: 60%;
+    }
+    
+    .p-kagami-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -22%;
+        margin-left:15%;
+        line-height: 2.1;
+        color:#00ece9   ;
+    }
+    /* kagami */
+    
+    /* luka coffaine */ /* luka coffaine */ /* luka coffaine */
+    
+.background-luka {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://i.pinimg.com/236x/15/32/f6/1532f63f5d47262cf4787394be689e57.jpg);
+    /* background-position: center; */
+    /* background-size:70%; */
+    border-radius: 20px;
+    border: solid #02eea796;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-luka {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg ,#02eea796 0%, rgb(100, 0, 167) 55%, #007fe6 80%,#02eea796 100%, rgb(58, 32, 66) 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+.image-luka::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://i.pinimg.com/564x/d4/eb/a2/d4eba21b8d457957062fb31a0642efbc.jpg);
+    background-size:100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-luka {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.p-luka-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+ /* luka coffaine */ /* luka coffaine */ /* luka coffaine */
+
+
+/* -lila-rossi *//* -lila-rossi *//* -lila-rossi */
+
+.background-lila-rossi {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080395475854835722/957426de59ed4464731d31c241e4f149.jpg);
+    background-position:center;
+    background-size:70%;
+    border-radius: 20px;
+    border: solid rgba(255, 145, 0, 0.753);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-lila-rossi {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, rgba(255, 145, 0, 0.753) 0%,rgb(250, 0, 0) 55%, #f40000 80%, rgba(255, 145, 0, 0.753) 100%,white 49%);    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+
+.image-lila-rossi::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080392984199172187/ca08d5cf90b0b7eaf4686be084548f61_1.jpg);
+    background-size:100%;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-lila-rossi {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-lila-rossi {
+    margin-left: 60%;
+}
+
+.p-lila-rossi-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -22%;
+    margin-left:15%;
+    line-height: 2.1;
+    color:black;
+}
+/* -lila-rossi *//* -lila-rossi *//* -lila-rossi */
+
+
+/* felix-argos *//* felix-argos *//* felix-argos */
+
+.background-felix-argos {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080493234045849700/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+    background-position: center;
+    /* background-size:90%; */
+    border-radius: 20px;
+    border: solid #230bf7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-felix-argos  {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg,#ffd700 0%,#6902f9 55%,#02ee5196  80%,#ffd700 100%,black 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+.image-felix-argos::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1075454354280157304/80769723e7f2a0ec41aeef9f5de80e77_7.png);
+    /* background-size:100%; */
+    /* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.image-felix-argos{
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-felix-argos {
+    margin-left: 5%;
+}
+
+.p-felix-argos-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top:-22%;
+    margin-left:41%;
+    line-height: 2.1;
+    color:black;
+}
+/* felix-argos *//* felix-argos *//* felix-argos */
+
+
+}
+
+/* media  min-width:1200px */
+/* media  min-width: 1024px*//* media  min-width: 1024px*//* media  min-width: 1024px*//* media  min-width: 1024px*/
+@media only screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* thomes */
+    .image-thomes {
+        border: solid;
+        border-radius: 10px;
+        width: 50%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    /* thomes */
+
+    /* catnoir */ /* catnoir */ /* catnoir */
+    .background-catnoir {
+        width: 96%;
+        height: 302px;
+        background-image: url(https://i.ytimg.com/vi/oODLLgAuc0o/maxresdefault.jpg);
+        background-position: center;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-catnoir-1 {
+            /* font-family: 'Lato', sans-serif;
+            font-weight: bold; */
+            width: 40%;
+            margin-top:-23%;
+            margin-left:15%;
+            line-height: 2.1;
+            color: white;
+    }
+    
+    
+    /* catnoir */ /* catnoir */ /* catnoir */
+
+    /* ladybug *//* ladybug *//* ladybug */
+    .background-ladybug {
+        width: 96%;
+        height: 302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080451849133502504/miraculous_wallpaper___ladybug_by_pokemonmalcolregion_dej7to9-350t.jpg);
+        background-position: center;
+        background-size:80%;
+        border-radius: 20px;
+        border: solid red;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-ladybag-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -22%;
+        margin-left: 41%;      
+        line-height: 2.1;
+        color:white;
+    }
+    
+    /* ladybug *//* ladybug *//* ladybug */
+
+    /* hawkmoth *//* hawkmoth *//* hawkmoth */
+    .background-hawkmoth {
+        width: 96%;
+        height: 310px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080492957871910993/miraculous_wallpaper___butterfly_by_pokemonmalcolregion_delsa2g-350t.jpg);
+        background-position:center;
+        background-size:72%;
+        border-radius: 20px;
+        border: solid #6902f9;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    .p-hawkmoth-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -24%;
+        margin-left: 15%;
+        line-height: 2.1;
+        color:white;
+    }
+    /* hawkmoth *//* hawkmoth *//* hawkmoth */
+
+    /* mayura *//* mayura */
+    .background-mayura {
+        width: 96%;
+        height:302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080493234045849700/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+        background-position:center ;
+        background-size:73%;
+        border-radius: 20px;
+        border: solid #6902f9;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    
+.image-mayura::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://i.pinimg.com/564x/7f/7e/8e/7f7e8eb1ca9526265c676b03bf77315d.jpg);
+    background-position: center;
+    background-size:120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .p-mayura-1 {
+        /* font-family: 'Lato', sans-serif;
+        font-weight: bold; */
+        width: 40%;
+        margin-top: -22%;
+        margin-left: 41%;
+        line-height: 2.1;
+        color: black;
+    }
+    
+    /* mayura *//* mayura *//* mayura */
+
+    /* nieno *//* nieno *//* nieno*/
+
+    .background-nieno {
+        width: 96%;
+        height:302px;
+        background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080443755825467402/delq57l-61338197-6064-428d-b3cc-bb1a84e3d19b.png);
+        background-position:center ;
+        background-size:73%;
+        border-radius: 20px;
+        border: solid #0af902;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 2%;
+        margin-top: 3%;
+    }
+
+.image-nieno {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #23d100 10%, #000000 55%, #ff0000 80%, #18d100 100%, #060a0a 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 10%;
+    left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-nieno::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-nieno {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-nieno {
+    margin-left: 60%;
+}
+
+.p-nieno-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+
+    /*nieno *//*nieno *//*nieno *//*nieno */
+
+    /* bunix*/ /* bunix*/ /* bunix*/ /* bunix*/
+
+.background-bunix {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080446359968153710/miraculous_wallpaper___rabbit_by_pokemonmalcolregion_delsa8l-350t_1.jpg);
+    background-position: center;
+    background-size: 70%;
+    border-radius: 20px;
+    border: solid #230bf7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-bunix {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, #14aef5 10%, #dbdbdb 55%, #0024be 80%, #14aef5 100%, #f5f5f5 55%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.image-bunix::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url();
+    /* background-size:130%; */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-bunix{
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+
+.all-margin-bunix{
+    margin-left: 5%;
+}
+
+.p-bunix-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 41%;
+    line-height: 2.1;
+    color: black;
+}
+
+    /*bunix *//*bunix *//*bunix */
+
+
+    /* kagami *//* kagami *//* kagami *//* kagami *//* kagami */
+
+    .background-kagami {
+        width: 96%;
+        height: 302px;
+        background-image:url(https://cdn.discordapp.com/attachments/1074313907256164352/1080492515775492136/miraculous_wallpaper___dragon_by_pokemonmalcolregion_delsad9-350t.jpg);
+        background-position:center;
+        background-size:66%;
+        border-radius: 20px;
+        border: solid red;
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        -ms-border-radius:20px;
+        -o-border-radius:20px;
+        padding: 2%;
+        margin-top: 3%;
+}
+    
+    .image-kagami {
+        width: calc(30vw + 6px);
+        height: calc(20vw + 6px);
+        background-image: linear-gradient(90deg, #0024be 0%,white 55%, #f40000 80%, #0024be 100%,gray 49%);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: absolute;
+            top: 10%;
+            left: 34%; */
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .image-kagami::after {
+        content: attr(alt);
+        width: 30vw;
+        height: 20vw;
+        background-image: url(https://cdn.discordapp.com/attachments/1070061633994506321/1073304279009472572/14954d9804effb8719a7ad1bb758edf7.png);
+        background-size:100%;
+        /* background-position: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-kagami {
+        animation: slowed 2s linear infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation: slowed 2s linear infinite;
+    }
+    
+    @keyframes slowed {
+        to {
+            background-position: 30vw;
+        }
+    }
+
+    .all-margin-kagami {
+        margin-left: 60%;
+    }
+    
+    .p-kagami-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top: -22%;
+    margin-left:15%;
+    line-height: 1.8;
+    color: #0bd6d7;
+}
+    
+    /* kagami *//* kagami *//* kagami *//* kagami */
+
+
+    /* luka coffaine */ /* luka coffaine */ /* luka coffaine */
+    
+.background-luka {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080447446565531719/download_3.jpg);
+    background-position: center;
+    background-size:70%;
+    border-radius: 20px;
+    border: solid #02eea796;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-luka {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg ,#02eea796 0%, rgb(100, 0, 167) 55%, #007fe6 80%,#02eea796 100%, rgb(58, 32, 66) 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+.image-luka::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080437306504249364/e2c990ece9669c6d4a6fb812d2988b6e.jpg);
+    background-size:100%;
+    /* background-position:calc(-70vw + 0px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-luka {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.p-luka-1 {
+    width: 40%;
+    margin-top:-22%;
+    margin-left:39%;
+    line-height: 2.1;
+    color:black;
+}
+ /* luka coffaine */ /* luka coffaine */ /* luka coffaine */
+
+
+/* lila-rossi *//* lila-rossi *//* lila-rossi */
+
+.background-lila-rossi {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080395475854835722/957426de59ed4464731d31c241e4f149.jpg);
+    background-position:center;
+    background-size:70%;
+    border-radius: 20px;
+    border: solid rgba(255, 145, 0, 0.753);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-lila-rossi {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg, rgba(255, 145, 0, 0.753) 0%,rgb(250, 0, 0) 55%, #f40000 80%, rgba(255, 145, 0, 0.753) 100%,white 49%);    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+
+.image-lila-rossi::after {
+    content: attr(alt);
+    width: 30vw;
+    height: 20vw;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080392984199172187/ca08d5cf90b0b7eaf4686be084548f61_1.jpg);
+    background-size:100%;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-lila-rossi {
+    animation: slowed 2s linear infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation: slowed 2s linear infinite;
+}
+
+@keyframes slowed {
+    to {
+        background-position: 30vw;
+    }
+}
+
+.all-margin-lila-rossi {
+    margin-left: 60%;
+}
+
+.p-lila-rossi-1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    width: 40%;
+    margin-top:-22%;
+    margin-left:15%;
+    line-height: 2.1;
+    color:black;
+}
+/* lila-rossi *//* lila-rossi *//* lila-rossi */
+
+
+.background-felix-argos {
+    width: 96%;
+    height: 302px;
+    background-image: url(https://cdn.discordapp.com/attachments/1074313907256164352/1080493234045849700/delsa67-7de9563c-4296-4fb7-9fe6-11b415455d58.png);
+    background-position: center;
+    background-size:72%;
+    border-radius: 20px;
+    border: solid #6902f9;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.image-felix-argos  {
+    width: calc(30vw + 6px);
+    height: calc(20vw + 6px);
+    background-image: linear-gradient(90deg,#ffd700 0%,#6902f9 55%,#02ee5196  80%,#ffd700 100%,black 49%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+        top: 10%;
+        left: 34%; */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;  
+}
+
+
+
+}
+
+
+/* media  min-width: 1024px*/
+
+
+.image-season-1 {
+    position: absolute;
+    top: 849%;
+    left: 5px;
+    width: 200px;
+    height: 300px;
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p-M-season-1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 849%;
+    left: 16%;
+    color: blue;
+    border: solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    line-height: 1.6;
+
+}
+
+.p1-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 856%;
+    left: 220px;
+}
+
+.p2-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 861%;
+    left: 220px;
+}
+
+.p3-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 866%;
+    left: 220px;
+}
+
+.p4-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 871%;
+    left: 220px;
+}
+
+.p6-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 876%;
+    left: 220px;
+}
+
+.p7-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 881%;
+    left: 220px;
+}
+
+.p8-M1-season1 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 885%;
+    left: 220px;
+    line-height: 1.6;
+}
+
+/* end in season 1 in miracoloues */
+/* end in season 1 in miracoloues */
+
+/* end in season two */
+/* end in season two */
+
+.image-season-2 {
+    position: absolute;
+    top: 900%;
+    left: 5px;
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p1-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 900%;
+    left: 217px;
+    line-height: 1.6;
+    color: blue;
+    border: solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.p2-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 906%;
+    left: 217px;
+}
+
+.p3-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 911%;
+    left: 217px;
+}
+
+.p4-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 916%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p5-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 933%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p6-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 941%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p7-M2-season2 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 946%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+/* end in season two */
+/* end in season two */
+
+/*mirscoloues season 3 */
+/*mirscoloues season 3 */
+
+.image-season3 {
+    position: absolute;
+    top: 958%;
+    left: 5px;
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p1-M3-season3 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 955%;
+    left: 217px;
+    line-height: 1.6;
+    color: blue;
+    border: solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.p2-M3-season3 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 960%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p3-M3-season3 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 968%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p4-M3-season3 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 972%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+/* end season 3 miracoloues */
+/* end season 3 miracoloues */
+
+/* season 4 in miracoloues */
+.image-season4 {
+    position: absolute;
+    top: 980%;
+    left: 5px;
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p1-M4-season4 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 978%;
+    left: 217px;
+    line-height: 1.6;
+    color: blue;
+    border: solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.p2-M4-season4 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 983%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p3-M4-season4 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 996%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p4-M4-season4 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 1005%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+/* end in season 4 in miracoloues */
+/* end in season 4 in miracoloues */
+
+/* miracoloues season 5 */
+/* miracoloues season 5 */
+.image-season5 {
+    position: absolute;
+    top: 1033%;
+    left: 5px;
+    width: 200px;
+    border: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p1-M5-season5 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 1036%;
+    left: 217px;
+    line-height: 1.6;
+    color: blue;
+    border: solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.p2-M5-season5 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 1046%;
+    left: 217px;
+    line-height: 1.6;
+}
+
+.p3-M5-season5 {
+    /* font-family: 'Lato', sans-serif;
+    font-weight: bold; */
+    position: absolute;
+    top: 1063%;
+    left: 217px;
+    line-height: 1.6;
+}
